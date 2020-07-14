@@ -12,7 +12,7 @@ from flask import Flask, request, render_template, redirect, jsonify
 
 app = Flask(__name__)
 
-@app.route('/api',methods=['GET'])
+@app.route('/api')
 def index():
     msg={}
     #?task= upload or find &&
